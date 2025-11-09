@@ -4,7 +4,7 @@
 #define OFFSET_MASK 0b111111111111
 #define PAGES 8
 #define OFFSET_BITS 12
-#define PAGE_SIZE 32768
+#define PAGE_SIZE 4096
 int page_table[PAGES] = {6, 4, 3, 7, 0, 1, 2, 5};
 
 
